@@ -1,0 +1,49 @@
+{
+  "id": "[UUID]",
+  "pages": [
+    {
+      "id": "[UUID]",
+      "name": "Page 1",
+      "content": [
+        {
+          "id": "[UUID]"
+        }
+      ]
+    }
+  ],
+  "symbols": {
+    "[UUID_v4]": {
+      "content": [
+        {
+          "class": "[UUID]"
+        }
+      ]
+    }
+  },
+  "history": [
+    {
+      "id": "[UUID]",
+      "content": [
+        {
+          "type": "MOVE_ELEMENT_XY",
+          "attrs": {
+            "x": 100,
+            "y": 120
+          }
+        }
+      ]
+    },
+    {
+      "id": "[UUID]",
+      "content": [
+        {
+          "type": "CROP_CANVAS_WIDTH_HEIGHT",
+          "attrs": {
+            "width": 800,
+            "height": 800
+          }
+        }
+      ]
+    }
+  ]
+}
