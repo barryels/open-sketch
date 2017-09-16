@@ -32,7 +32,23 @@ var documentFileContents = {
 						backgroundSize: 'cover',
 						border: '1px solid #000',
 						height: '284px',
+						left: '260px',
+						transform: 'perspective(160px) skewX(-5deg) rotateX(5deg) rotateY(-2deg) rotateZ(35deg)',
+						// transform: 'perspective(160px) rotateX(5deg) rotateY(-2deg) rotateZ(35deg)',
+						position: 'absolute',
+						top: '100px',
+						width: '160px',
+					},
+				},
+				{
+					id: 'd165e907-49e6-416a-afc7-3d14f7168f09',
+					style: {
+						background: 'transparent',
+						border: '1px solid #000',
+						boxShadow: '1px 2px 40px rgba(0, 0, 0, 1)',
+						height: '284px',
 						left: '360px',
+						__opacity: '0',
 						transform: 'perspective(160px) skewX(-5deg) rotateX(5deg) rotateY(-2deg) rotateZ(35deg)',
 						// transform: 'perspective(160px) rotateX(5deg) rotateY(-2deg) rotateZ(35deg)',
 						position: 'absolute',
@@ -197,13 +213,13 @@ function view(vnode) {
 		[
 			m('h1', 'Artboard'),
 			m('pre', JSON.stringify(vnode.state, null, 2)),
-			m('div.elements', documentFileContents.pages[0].elements.map(function (element) {
+			m('div.elements', documentFileContents.pages[0].elements.map(function (element, elementIndex) {
 				return m('div.element',
 					combineObjects(
 						getDraggableListenersAsAttributesObject(vnode),
 						{
 							id: element.id,
-							style: element.style,
+							style: combineObjects(element.style, { zIndex: documentFileContents.pages[0].elements.length - elementIndex, }),
 						}
 					), element.yield
 				);
