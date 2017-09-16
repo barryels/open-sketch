@@ -30,7 +30,7 @@ var documentFileContents = {
 					style: {
 						background: 'url("http://gdj.graphicdesignjunction.com/wp-content/uploads/2014/03/0012_sign_in_app_design.jpg") no-repeat center center',
 						backgroundSize: 'cover',
-						border: '1px solid #000',
+						border: '1px dashed #000',
 						height: '284px',
 						left: '260px',
 						transform: 'perspective(160px) skewX(-5deg) rotateX(5deg) rotateY(-2deg) rotateZ(35deg)',
@@ -43,9 +43,9 @@ var documentFileContents = {
 				{
 					id: 'd165e907-49e6-416a-afc7-3d14f7168f09',
 					style: {
-						background: 'transparent',
-						border: '1px solid #000',
-						boxShadow: '1px 2px 40px rgba(0, 0, 0, 1)',
+						background: 'url("Screen Shot 2017-09-15 at 18.17.49.png") no-repeat center center',
+						backgroundSize: 'cover',
+						boxShadow: '1px 2px 40px rgba(0, 0, 0, 0.5)',
 						height: '284px',
 						left: '360px',
 						__opacity: '0',
@@ -60,6 +60,7 @@ var documentFileContents = {
 					id: 'asdf',
 					style: {
 						filter: 'blur(2px)',
+						position: 'absolute',
 					},
 					yield: 'Helkjashdfk h',
 				},
@@ -212,7 +213,7 @@ function view(vnode) {
 		},
 		[
 			m('h1', 'Artboard'),
-			m('pre', JSON.stringify(vnode.state, null, 2)),
+			m('pre', { style: { position: 'absolute', }, }, JSON.stringify(vnode.state, null, 2)),
 			m('div.elements', documentFileContents.pages[0].elements.map(function (element, elementIndex) {
 				return m('div.element',
 					combineObjects(
