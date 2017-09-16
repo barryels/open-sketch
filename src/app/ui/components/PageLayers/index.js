@@ -4,8 +4,10 @@
 var m = require('mithril');
 
 
-function view(vnode) {
-	return m('div.Panel', vnode.attrs, vnode.children);
+function view() {
+	return m('div.PageLayers',
+		'PageLayers'
+	);
 }
 
 
