@@ -9,7 +9,7 @@
   "scripts": {
     "clean": "rimraf dist && mkdirp dist",
     "ui_server:start": "http-server dist -p 9001 -c 1 -s",
-    "watch:all": "npm-run-all --parallel ui_server:start lint:src:watch build:js:watch copy_static_files:src:watch build:css:watch",
+    "watch:all": "npm-run-all --parallel ui_server:start lint:src:watch build:js:watch copy_static_files:src:watch build:css build:css:watch",
     "build:js:watch": "watchify src/app/index.js --debug -o dist/bundle.js -v",
     "build:css": "node-sass src/app/index.scss dist/bundle.css",
     "build:css:watch": "node-sass -w src/app/index.scss dist/bundle.css",
