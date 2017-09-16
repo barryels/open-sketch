@@ -1,0 +1,46 @@
+<?xml version="1.0">
+<data>
+	<Document id="357a67b9-8db1-48e0-862a-e9011adcbc34">
+		<stylesheet>
+			<![CDATA[
+			]]>
+		</stylesheet>
+		<pages>
+			<page id="717fef59-40d7-4b86-bcab-3ae2bd19f00e" name="Page 1">
+				<structure>
+					<component id="710e004c-39a5-4de1-9576-e24d46bdc71a"></component>
+					<symbol id="ef5f04fd-3810-455e-93d8-7c167500c147"></symbol>
+					<component id="829d1244-43df-4af0-ae9d-6cdb3af06dc0"></component>
+				</structure>
+			</page>
+		</pages>
+		<symbols>
+			<item id="ef5f04fd-3810-455e-93d8-7c167500c147">
+				<props></props>
+			</item>
+		</symbols>
+		<history>
+			<item id="ca64d223-5fc2-490d-9b6d-75f22571c57a"></item>
+		</history>
+	</Document>
+	<ComponentLibrary>
+		<component id="710e004c-39a5-4de1-9576-e24d46bdc71a" name="Page Body"></component>
+		<component id="ae819817-1263-494d-9db1-7054b7a63c38" name="Grid Container" tags="layout,grid,container"></component>
+		<component id="11425e2c-0a9c-4b4b-93e4-505e332f3da0" name="Grid Row" tags="layout,grid,row"></component>
+		<component id="30809677-0bfe-4da5-a979-0f7f70a377db" name="Grid Column" tags="layout,grid,column"></component>
+		<component id="76d23e58-7e6f-418a-ba39-8a804298ead5" name="Button" tags="button,interactive"></component>
+		<component id="829d1244-43df-4af0-ae9d-6cdb3af06dc0" name="Image" tags="image,bitmap,interactive"></component>
+	</ComponentLibrary>
+</data>
+<!--
+UUIDs:
+753fa3f4-2e74-4d90-9f9f-845fb72a3491
+79e053ec-ccb1-430f-b46c-a2002a3f9c59
+fefeb6be-44f3-44b5-9500-dd77a91a5b0f
+931a5d26-95eb-4407-bdd3-7ff09595f17e
+5b8ca3da-f373-4aa1-8c62-7bc576e50fea
+a14fde95-0a67-44df-8d8d-9ca09261b71d
+f0cc986a-b549-4cb9-8887-3f1d5acc41bb
+cbb446dd-4c15-4373-9047-a0cbd139b972
+90a1f28f-555a-4547-b05f-770af31e5033
+-->

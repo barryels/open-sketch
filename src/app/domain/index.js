@@ -7,13 +7,17 @@ var actions = {};
 
 var Entities = {
 	User: {},
-	Element: {},
+	Element: {
+		component_id: '',
+	},
 	Component: {},
 	ComponentLibrary: {},
 	Symbol: {},
 	Filter: {},
 	Page: {},
+	History: {},
 	Document: {},
+	Artboard: {}, // vs Workspace vs DocumentBoard vs Board
 };
 
 
