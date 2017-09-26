@@ -1,7 +1,13 @@
+// Theme
 @import './ui/themes/ThemeDefault/variables';
 @import './ui/themes/ThemeDefault/index';
 
 
+// Components
 @import './ui/components/Toolbar/index';
 @import './ui/components/Panel/index';
 @import './ui/components/Artboard/index';
+@import './ui/components/Workspace/index';
+
+
+// Screens

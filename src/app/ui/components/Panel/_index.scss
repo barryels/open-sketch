@@ -1,8 +1,7 @@
-// @import './../../'
-
 .Panel {
 	background: #eee;
 	min-height: $base_unit * 10;
 	position: absolute;
+	top: 0;
 	min-width: $base_unit * 10;
 }

@@ -233,7 +233,7 @@ function oncreate() {
 function view(vnode) {
 	return m('div.Artboard',
 		{
-			style: { transform: 'scale(' + vnode.state.zoom + ')', },
+			style: Object.assign(vnode.attrs.style, { transform: 'scale(' + vnode.state.zoom + ')', }),
 		},
 		[
 			// m('pre', { style: { position: 'absolute', }, }, JSON.stringify(vnode.state, null, 2)),

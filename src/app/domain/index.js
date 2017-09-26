@@ -17,7 +17,8 @@ var Entities = {
 	Page: {},
 	History: {},
 	Document: {},
-	Artboard: {}, // vs Workspace vs DocumentBoard vs Board
+	Artboard: {}, // vs DocumentBoard vs Board
+	Workspace: {}, // Container for Panels and Artboard
 };
 
 

@@ -1,8 +1,6 @@
-// @import './../../'
-
 .Toolbar {
 	background: #ccc;
-	height: 5%; // $base_unit * 4;
+	height: $Toolbar_height;
 	left: 0;
 	position: absolute;
 	top: 0;
